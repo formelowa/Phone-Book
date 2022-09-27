@@ -33,22 +33,22 @@
             this.Info_Button = new System.Windows.Forms.ToolStripButton();
             this.saveButton = new System.Windows.Forms.ToolStripButton();
             this.info_gBox = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.ID_tb = new System.Windows.Forms.TextBox();
-            this.First_N_tb = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.Last_N_tb = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.tel_tb = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.cell_tb = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.email_tb = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.adress_tb = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.comment_tb = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.adress_tb = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.email_tb = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.cell_tb = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.tel_tb = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.Last_N_tb = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.First_N_tb = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.ID_tb = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.toolStrip1.SuspendLayout();
             this.info_gBox.SuspendLayout();
             this.SuspendLayout();
@@ -112,38 +112,85 @@
             this.info_gBox.TabStop = false;
             this.info_gBox.Text = "Information";
             // 
-            // label1
+            // comment_tb
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 50);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(24, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "ID :";
+            this.comment_tb.Location = new System.Drawing.Point(75, 229);
+            this.comment_tb.Name = "comment_tb";
+            this.comment_tb.Size = new System.Drawing.Size(205, 20);
+            this.comment_tb.TabIndex = 15;
             // 
-            // ID_tb
+            // label8
             // 
-            this.ID_tb.Location = new System.Drawing.Point(75, 47);
-            this.ID_tb.Name = "ID_tb";
-            this.ID_tb.Size = new System.Drawing.Size(205, 20);
-            this.ID_tb.TabIndex = 1;
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(6, 232);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(54, 13);
+            this.label8.TabIndex = 14;
+            this.label8.Text = "Comment:";
             // 
-            // First_N_tb
+            // adress_tb
             // 
-            this.First_N_tb.Location = new System.Drawing.Point(75, 73);
-            this.First_N_tb.Name = "First_N_tb";
-            this.First_N_tb.Size = new System.Drawing.Size(205, 20);
-            this.First_N_tb.TabIndex = 3;
+            this.adress_tb.Location = new System.Drawing.Point(75, 203);
+            this.adress_tb.Name = "adress_tb";
+            this.adress_tb.Size = new System.Drawing.Size(205, 20);
+            this.adress_tb.TabIndex = 13;
             // 
-            // label2
+            // label7
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 76);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "First Name :";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(6, 206);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(51, 13);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "Address :";
+            // 
+            // email_tb
+            // 
+            this.email_tb.Location = new System.Drawing.Point(75, 177);
+            this.email_tb.Name = "email_tb";
+            this.email_tb.Size = new System.Drawing.Size(205, 20);
+            this.email_tb.TabIndex = 11;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(6, 180);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(38, 13);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Email :";
+            // 
+            // cell_tb
+            // 
+            this.cell_tb.Location = new System.Drawing.Point(75, 151);
+            this.cell_tb.Name = "cell_tb";
+            this.cell_tb.Size = new System.Drawing.Size(205, 20);
+            this.cell_tb.TabIndex = 9;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(6, 154);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(30, 13);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Cell :";
+            // 
+            // tel_tb
+            // 
+            this.tel_tb.Location = new System.Drawing.Point(75, 125);
+            this.tel_tb.Name = "tel_tb";
+            this.tel_tb.Size = new System.Drawing.Size(205, 20);
+            this.tel_tb.TabIndex = 7;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 128);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(28, 13);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Tel :";
             // 
             // Last_N_tb
             // 
@@ -162,85 +209,38 @@
             this.label3.Text = "Last Name :";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // tel_tb
+            // First_N_tb
             // 
-            this.tel_tb.Location = new System.Drawing.Point(75, 125);
-            this.tel_tb.Name = "tel_tb";
-            this.tel_tb.Size = new System.Drawing.Size(205, 20);
-            this.tel_tb.TabIndex = 7;
+            this.First_N_tb.Location = new System.Drawing.Point(75, 73);
+            this.First_N_tb.Name = "First_N_tb";
+            this.First_N_tb.Size = new System.Drawing.Size(205, 20);
+            this.First_N_tb.TabIndex = 3;
             // 
-            // label4
+            // label2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 128);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(28, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Tel :";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 76);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(63, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "First Name :";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // cell_tb
+            // ID_tb
             // 
-            this.cell_tb.Location = new System.Drawing.Point(75, 151);
-            this.cell_tb.Name = "cell_tb";
-            this.cell_tb.Size = new System.Drawing.Size(205, 20);
-            this.cell_tb.TabIndex = 9;
+            this.ID_tb.Location = new System.Drawing.Point(75, 47);
+            this.ID_tb.Name = "ID_tb";
+            this.ID_tb.Size = new System.Drawing.Size(205, 20);
+            this.ID_tb.TabIndex = 1;
             // 
-            // label5
+            // label1
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 154);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(30, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Cell :";
-            // 
-            // email_tb
-            // 
-            this.email_tb.Location = new System.Drawing.Point(75, 177);
-            this.email_tb.Name = "email_tb";
-            this.email_tb.Size = new System.Drawing.Size(205, 20);
-            this.email_tb.TabIndex = 11;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 180);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 13);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Email :";
-            // 
-            // adress_tb
-            // 
-            this.adress_tb.Location = new System.Drawing.Point(75, 203);
-            this.adress_tb.Name = "adress_tb";
-            this.adress_tb.Size = new System.Drawing.Size(205, 20);
-            this.adress_tb.TabIndex = 13;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 206);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 13);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "Address :";
-            // 
-            // comment_tb
-            // 
-            this.comment_tb.Location = new System.Drawing.Point(75, 229);
-            this.comment_tb.Name = "comment_tb";
-            this.comment_tb.Size = new System.Drawing.Size(205, 20);
-            this.comment_tb.TabIndex = 15;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(6, 232);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(54, 13);
-            this.label8.TabIndex = 14;
-            this.label8.Text = "Comment:";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 50);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(24, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "ID :";
             // 
             // Reg_Data
             // 
@@ -250,6 +250,7 @@
             this.Controls.Add(this.info_gBox);
             this.Controls.Add(this.toolStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Reg_Data";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Search_form));
             this.info_gBox = new System.Windows.Forms.GroupBox();
             this.comment_tb = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -234,6 +235,7 @@
             this.ClientSize = new System.Drawing.Size(360, 450);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.info_gBox);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Search_form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Search";
