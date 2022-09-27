@@ -50,5 +50,29 @@ namespace Phone_Book
         {
             this.Close();
         }
+
+        private void Phone_Book_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode==Keys.F2)
+            {
+                toolStripButton2_Click(sender, e);
+            }
+            if (e.KeyCode == Keys.F3)
+            {
+                toolStripButton5_Click(sender, e);
+            }
+            if (e.KeyCode == Keys.F4)
+            {
+                toolStripButton4_Click(sender, e);
+            }
+            if (e.KeyCode == Keys.F5)
+            {
+                toolStripButton3_Click(sender, e);
+            }
+            if (e.KeyCode == Keys.Escape)
+            {
+                toolStripButton1_Click(sender, e);
+            }
+        }
     }
 }
